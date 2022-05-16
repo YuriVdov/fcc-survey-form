@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="css/index.css" type="text/css" rel="stylesheet"<title>FerrariPhotoApp</title>
+    </head>
+    <body>
+        <h1>FerrariPhotoApp</h1>
+        <main>
+            <section>
+                <h2>Ferrari Photos</h2>
+                <p>
+                    Click here to view more <a target="_blank" href="https://www.ferrari.com/en-EN/auto/past-model">ferrari photos</a>
+                </p>
+                <a href="https://www.ferrari.com">
+                    <img src="img/ferrrari-sp48.jpg" alt="Rosso Ferrari SP48">
+                </a>
+            </section>
+            <section>
+                <h2>Ferrari Menu</h2>
+                <h3>New models:</h3>
+                <p>812 GTS</p>
+                <p>296 GTB</p>
+                <p>296 GTS</p>
+                <p>SF90 Stradale</p>
+                <p>SF90 Spider</p>
+                <p>F8 Tributo</p>
+                <p>F8 Spider</p>
+                <p>Ferrari Roma</p>
+                <p>Ferrari Portofino M</p>
+                <p>Special Series</p>
+                <p>Icona</p>
+                <figure>
+                    <img src="img/ferrari-sp1-interior.jpg" alt="Ferrari SP1 interior">
+                    <figcaption>
+                        <em>Heroes love Ferrari</em>
+                    </figcaption>
+                </figure>
+                <h3>Top 3 things Ferraris love:</h3>
+                <p>Owner</p>
+                <p>Road</p>
+                <p>Track</p>
+                <figure>
+                    <img src="img/ferrari-racing.jpg" alt="Ferrari cup car on track">
+                    <figcaption>
+                        <strong>Ferraris love tracks</strong>
+                    </figcaption>
+                </figure>
+            </section>
+            <section>
+                <h2>Owner Form</h2>
+                <form action="https://formspree.io/f/xdobyplj" method="post">
+                    <fieldset>
+                        <legend>Is your Ferrari a coupe or spider car?</legend>
+                        <label>
+                            <input id="coupe" type="radio" name="coupe-spider" value="coupe" checked>Coupe
+                        </label>
+                        <label>
+                            <input id="spider" type="radio" name="coupe-spider" value="spider">Spider
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>What's your Ferrari energy type?</legend>
+                        <input id="electrics" type="checkbox" name="energy" value="electrics">
+                        <label for="electrics">Electrics</label>
+                        <input id="hybrid" type="checkbox" name="energy" value="hybrid" checked>
+                        <label for="hybrid">Hybrid</label>
+                        <input id="gasoline" type="checkbox" name="energy" value="gasoline">
+                        <label for="gasoline">Gasoline</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Your car story:</legend>
+                        <textarea name="ferrari-comment" placeholder="Tell some about your car here..." rows="5" cols="30"></textarea>
+                    </fieldset>
+                    <input type="submit" value="submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>
+                <a href="https://www.ferrari.com/en-UA/corse-clienti">Ferrari Fun Club Ukraine</a>
+            </p>
+        </footer>
+    </body>
+</html>
